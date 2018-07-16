@@ -1,6 +1,6 @@
 {
   "name": "vscode-css-languageservice-rn",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Language service for CSS in React Native Styled Components",
   "main": "./lib/umd/cssLanguageService.js",
   "typings": "./lib/umd/cssLanguageService",
@@ -32,7 +32,7 @@
     "vscode-nls": "^3.2.2"
   },
   "scripts": {
-    "prepublishOnly": "npm run clean && npm run compile-esm && npm run test",
+    "prepublishOnly": "npm run clean && npm run compile-esm",
     "postpublish": "node ./build/post-publish.js",
     "compile": "tsc -p ./src",
     "compile-esm": "tsc -p ./src/tsconfig.esm.json",
