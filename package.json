@@ -1,14 +1,14 @@
 {
-  "name": "vscode-css-languageservice",
-  "version": "3.0.9-next.20",
-  "description": "Language service for CSS, LESS and SCSS",
+  "name": "vscode-css-languageservice-rn",
+  "version": "1.0",
+  "description": "Language service for CSS in React Native Styled Components",
   "main": "./lib/umd/cssLanguageService.js",
   "typings": "./lib/umd/cssLanguageService",
   "module": "./lib/esm/cssLanguageService.js",
-  "author": "Microsoft Corporation",
+  "author": "Microsoft Corporation and IOPA for Fork",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/vscode-css-languageservice"
+    "url": "https://github.com/iopa/vscode-css-languageservice-rn"
   },
   "license": "MIT",
   "bugs": {

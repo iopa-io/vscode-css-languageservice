@@ -319,7 +319,7 @@ function toSource(object, keyName) {
     return []
   }
   var result = []
-  var entryArr = object.css[keyName].entry
+  var entryArr = object.css[keyName].entry || [];
   entryArr.forEach(function(e) {
     if (e.$.browsers === 'none') {
       return
@@ -354,15 +354,15 @@ fs.readFile(path.resolve(__dirname, schemaFileName), (err, data) => {
 		const atdirectives = toSource(result, 'atDirectives')
 
 		let pseudoclasses = toSource(result, 'pseudoClasses')
-		pseudoclasses = addMDNPseudoSelectors(pseudoclasses)
+	//	pseudoclasses = addMDNPseudoSelectors(pseudoclasses)
 
 		let pseudoelements = toSource(result, 'pseudoElements')
-		pseudoelements = addMDNPseudoElements(pseudoelements)
+//		pseudoelements = addMDNPseudoElements(pseudoelements)
 
     let properties = toSource(result, 'properties')
-		properties = addMDNProperties(properties)
+	//	properties = addMDNProperties(properties)
 
-    addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoelements, properties)
+     addBrowserCompatDataToProperties(atdirectives, pseudoclasses, pseudoelements, properties)
 
     const descriptions = internalizeDescriptions([].concat(atdirectives, pseudoclasses, pseudoelements, properties))
 

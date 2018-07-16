@@ -1,5 +1,7 @@
-# vscode-css-languageservice
-Language services for CSS, LESS and SCSS
+# vscode-css-languageservice-rn
+Language services for CSS in JS template strings for React Native.  Forked from `vscode-css-languageservice`
+
+Vastly slimmed down catalog of language facts for CSS based only on styles available in React Native.   Typically used with Styled-Components and Typescript.
 
 [![npm Package](https://img.shields.io/npm/v/vscode-css-languageservice.svg?style=flat-square)](https://www.npmjs.org/package/vscode-css-languageservice)
 [![NPM Downloads](https://img.shields.io/npm/dm/vscode-css-languageservice.svg)](https://npmjs.org/package/vscode-css-languageservice)
@@ -24,7 +26,7 @@ and the Monaco editor.
 Installation
 ------------
 
-    npm install --save vscode-css-languageservice
+    npm install --save vscode-css-languageservice-tn
     
     
 API

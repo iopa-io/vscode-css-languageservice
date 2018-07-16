@@ -1,0 +1,100 @@
+        allowFontScaling?: boolean
+        adjustsFontSizeToFit?: boolean
+        alignItems?: FlexAlignType;
+        alignSelf?: "auto" | FlexAlignType;
+        backfaceVisibility?: "visible" | "hidden"
+        backgroundColor?: string;
+        borderBottomColor?: string;
+        borderBottomLeftRadius?: number;
+        borderBottomRightRadius?: number;
+        borderBottomWidth?: number
+        borderBottomWidth?: number;
+        borderColor?: string;
+        borderLeftColor?: string;
+        borderLeftWidth?: number
+        borderRadius?: number;
+        borderRightColor?: string;
+        borderRightWidth?: number
+        borderRightWidth?: number;
+        borderStyle?: "solid" | "dotted" | "dashed"
+        borderTopColor?: string;
+        borderTopLeftRadius?: number;
+        borderTopRightRadius?: number;
+        borderTopWidth?: number
+        borderTopWidth?: number
+        borderWidth?: number
+        bottom?: number
+        color?: string
+        elevation?: number;
+        flex?: number
+        flexBasis?: number
+        flexDirection?: FlexDirection
+        flexGrow?: number
+        flexShrink?: number
+        flexWrap?: "wrap" | "nowrap"
+        fontFamily?: string
+        fontSize?: number
+        fontStyle?: "normal" | "italic"
+        fontWeight?: "normal" | "bold" | "100" | "200" | "300" | "400" | "500" | "600" | "700" | "800" | "900"
+        height?: number
+        justifyContent?: FlexJustifyType
+        left?: number
+        letterSpacing?: number
+        letterSpacing?: number
+        lineHeight?: number
+        margin?: number
+        marginBottom?: number
+        marginHorizontal?: number
+        marginLeft?: number
+        marginRight?: number
+        marginTop?: number
+        marginVertical?: number
+        maxHeight?: number
+        maxWidth?: number
+        minHeight?: number
+        minWidth?: number
+        minimumFontScale?: number
+        opacity?: number;
+        overflow?: "visible" | "hidden"
+        overflow?: "visible" | "hidden" | "scroll"
+        padding?: number
+        paddingBottom?: number
+        paddingHorizontal?: number
+        paddingLeft?: number
+        paddingRight?: number
+        paddingTop?: number
+        paddingVertical?: number
+        position?: "absolute" | "relative"
+        right?: number
+        rotation?: number
+        scaleX?: number
+        scaleY?: number
+        shadowColor: string
+        shadowColor?: string;
+        shadowOffset: {width: number, height: number}
+        shadowOffset?: {width: number, height: number};
+        shadowOpacity: number
+        shadowOpacity?: number;
+        shadowRadius: number
+        shadowRadius?: number;
+        suppressHighlighting?: boolean
+        testID?: string
+        testID?: string;
+        textAlign?: "auto" | "left" | "right" | "center"
+        textAlignVertical?: "auto" | "top" | "bottom" | "center"
+        textDecorationColor?: string
+        textDecorationColor?: string
+        textDecorationLine?: "none" | "underline" | "line-through" | "underline line-through"
+        textDecorationStyle?: "solid" | "double" | "dotted" | "dashed"
+        textDecorationStyle?: "solid" | "double" | "dotted" | "dashed"
+        textShadowColor?: string
+        textShadowOffset?: {width: number, height: number}
+        textShadowRadius?: number
+        top?: number
+        transform?: [{perspective: number}, {rotate: string}, {rotateX: string}, {rotateY: string}, {rotateZ: string}, {scale: number}, {scaleX: number}, {scaleY: number}, {translateX: number}, {translateY: number}, {skewX: string}, {skewY: string}]
+        transformMatrix?: Array<number>
+        translateX?: number
+        translateY?: number
+        width?: number
+        writingDirection?: "auto" | "ltr" | "rtl"
+        zIndex?: number
